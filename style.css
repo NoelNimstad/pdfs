@@ -1,3 +1,5 @@
+/* 2023 Noel Nimstad */
+
 body 
 {
     margin: 0;
@@ -7,6 +9,8 @@ body
 main > h1
 {
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #4372EC;
 }
 
 .cards 
@@ -17,6 +21,7 @@ main > h1
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 5rem;
+    row-gap: 2rem;
 }
 
 .card
@@ -38,4 +43,12 @@ main > h1
 {
     background-image: url("Hold\ that\ Hold.svg");
     background-size: cover;
+}
+
+p 
+{
+    position: fixed;
+    bottom: 0;
+    left: 1rem;
+    opacity: 0.5;
 }
