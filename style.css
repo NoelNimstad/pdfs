@@ -30,19 +30,41 @@ main > h1
     width: 18rem;
     transition: 0.2s ease;
     border-radius: 0.5rem;
-    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.2),
+                0 0 0.1rem 0 white inset;
+    outline:  transparent 0.5rem solid;
+    outline-offset: 0.3rem;
+    background-size: cover;
 }
 
 .card:hover 
 {
-    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.3),
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.1),
                 0 0 0.25rem 0 white inset;
+    outline: RED 0.35rem solid;
 }
 
 .hth
 {
     background-image: url("Hold\ that\ Hold.svg");
-    background-size: cover;
+}
+
+.cs
+{
+    background-image: url("Coming\ Soon.svg");
+    box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.2),
+                0 0 0.2rem 0 white inset;
+}
+
+.hth:hover 
+{
+    outline: #4372EC 0.35rem solid;
+}
+
+.cs:hover 
+{
+    cursor: pointer;
+    outline: #98999b 0.35rem solid
 }
 
 p 
